@@ -1,0 +1,18 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[safe]
+	directory = /home/nathan/.config
+	directory = /home/nathan/.config/nvim
+[user]
+	email = nathanliang99@outlook.com
+	name = Nathan51888
+[credential]
+	credentialStore = cache
+	helper = 
+	helper = /usr/bin/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
